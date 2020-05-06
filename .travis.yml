@@ -1,0 +1,6 @@
+sudo: required
+services:
+    - docker
+script: 
+    - docker build -t mbulaheni/test-backend .
+    - docker image mbulaheni/test-backend
