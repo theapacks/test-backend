@@ -3,4 +3,4 @@ services:
     - docker
 script: 
     - docker build -t mbulaheni/test-backend .
-    - docker image mbulaheni/test-backend
+    - docker images mbulaheni/test-backend
